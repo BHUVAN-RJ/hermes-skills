@@ -5,13 +5,13 @@ from __future__ import annotations
 import re
 import unicodedata
 
-# Invisible characters an attacker can put inside a word ("ig​nore") so a
+# Invisible characters an attacker can put inside a word ("ig\u200bnore") so a
 # naive regex no longer matches it, while the model still reads the word.
-ZERO_WIDTH_CHARACTERS = "​‌‍⁠﻿­᠎"
+ZERO_WIDTH_CHARACTERS = "\u200b\u200c\u200d\u2060\ufeff\u00ad\u180e"
 
 # Bidirectional embedding/override/isolate controls. They reorder how text is
 # displayed, so a human reviewer sees something different from what the model gets.
-BIDI_CONTROL_CHARACTERS = "‪‫‬‭‮⁦⁧⁨⁩"
+BIDI_CONTROL_CHARACTERS = "\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069"
 
 # Lowercase Cyrillic and Greek letters that render the same as Latin letters.
 # Mapping them back lets "іgnоre" (Cyrillic i and o) match "ignore".

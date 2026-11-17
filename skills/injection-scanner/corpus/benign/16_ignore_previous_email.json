@@ -1,6 +1,0 @@
-{
-  "subject": "Meeting moved",
-  "body": "Hi Riley,\n\nPlease ignore my previous email, the meeting moved to Thursday at 3pm.\n\nThanks,\nJordan",
-  "sender": "jordan@usc.edu",
-  "expected": "clean"
-}

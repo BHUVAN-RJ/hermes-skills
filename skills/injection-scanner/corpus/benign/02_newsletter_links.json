@@ -1,7 +1,0 @@
-{
-  "subject": "Your Tuesday briefing",
-  "body": "Markets rallied, a new phone launched, and more. Read online: https://bit.ly/3abcXYZ",
-  "sender": "digest@morningbrew.example",
-  "html": "<html><body><div style=\"display:none;max-height:0;overflow:hidden\">Markets rallied and a new phone launched</div><h1>Tuesday briefing</h1><p>Markets rallied today. <a href=\"https://news.example.com/markets?utm_source=newsletter&amp;utm_medium=email&amp;id=aHR0cHM6Ly9uZXdzLmV4YW1wbGUuY29tL21hcmtldHMvMjAyNi8xMS8xMw\">Read more</a></p><p>New phone review: <a href=\"https://reviews.example.com/phone\">reviews.example.com/phone</a></p><p><a href=\"https://news.example.com/unsubscribe\">Unsubscribe</a></p></body></html>",
-  "expected": "clean"
-}

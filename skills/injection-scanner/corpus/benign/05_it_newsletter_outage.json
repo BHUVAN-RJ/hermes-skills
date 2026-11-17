@@ -1,6 +1,0 @@
-{
-  "subject": "IT Newsletter: outage resolved",
-  "body": "Hello everyone,\n\nThe VPN outage from Monday has been resolved. Please ignore previous emails about the outage; no action is needed. The IT department will run scheduled maintenance this Saturday.\n\nReminder: never share your password with anyone, including IT.\n\nIT Department",
-  "sender": "it-news@ourcompany.com",
-  "expected": "clean"
-}

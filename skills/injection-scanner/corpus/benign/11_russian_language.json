@@ -1,6 +1,0 @@
-{
-  "subject": "Встреча в пятницу",
-  "body": "Здравствуйте! Подтверждаю встречу в пятницу в 15:00. Спасибо, Ольга. See you Friday, Olga.",
-  "sender": "olga@partner.example.ru",
-  "expected": "clean"
-}

@@ -13,8 +13,8 @@ from .normalize import normalized_view, raw_view
 # Per-family ceiling on the summed weight, so ten URL-shortener links or five
 # override phrases cannot by themselves push an email to 10.
 FAMILY_CAPS = {
-    # 8.0 (was 7.0): two strong override phrases together ("ignore previous instructions" +
-    # "you are now DAN") are an attack even with nothing else in the email.
+    # 8.0 (was 7.0): two strong override phrases together (an instruction override plus a
+    # persona/jailbreak switch, corpus 16) are an attack even with nothing else in the email.
     detectors.FAMILY_OVERRIDE: 8.0,
     detectors.FAMILY_ROLE_MARKUP: 6.0,
     detectors.FAMILY_EXFILTRATION: 6.0,

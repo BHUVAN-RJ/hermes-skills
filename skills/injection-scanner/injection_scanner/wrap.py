@@ -15,8 +15,8 @@ FLAGGED_WARNING = (
 
 # Any "<" that starts something reading as an untrusted_email tag, including
 # variants padded with spaces, slashes or zero-width characters
-# ("</ untrusted_email>", "</untrusted​_email>").
-_INVISIBLE_OR_SPACE = r"[\s/​‌‍⁠﻿]*"
+# ("</ untrusted_email>", "</untrusted\u200b_email>").
+_INVISIBLE_OR_SPACE = r"[\s/\u200b\u200c\u200d\u2060\ufeff]*"
 _DELIMITER_LOOKALIKE = re.compile(
     r"[<＜﹤](?=" + _INVISIBLE_OR_SPACE + r"untrusted" + _INVISIBLE_OR_SPACE + r"[_\-\s]?"
     + _INVISIBLE_OR_SPACE + r"email)",
