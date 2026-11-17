@@ -1,0 +1,6 @@
+{
+  "subject": "New: AI assistant for your inbox",
+  "body": "Our new AI assistant can summarize your emails and draft replies. It runs only when you ask it to and never sends anything without your approval. Try it today at https://saas-tool.example/ai",
+  "sender": "product@saas-tool.example",
+  "expected": "clean"
+}

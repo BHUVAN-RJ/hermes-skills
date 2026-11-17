@@ -1,0 +1,6 @@
+{
+  "subject": "Invoice INV-20931 due Nov 30",
+  "body": "Hello,\n\nPlease find attached invoice INV-20931 for $4,250.00. Payment is due by November 30. Please send payment to the account listed on the invoice or reply to this email with any questions.\n\nThank you for your business,\nAcme Supplies Billing",
+  "sender": "billing@acme-supplies.com",
+  "expected": "clean"
+}

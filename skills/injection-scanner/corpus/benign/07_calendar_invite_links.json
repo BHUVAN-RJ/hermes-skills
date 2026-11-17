@@ -1,0 +1,7 @@
+{
+  "subject": "Updated invitation: Design review",
+  "body": "Design review\nWednesday Nov 19, 10am - 11am (PST)\nJoin with Google Meet: https://meet.google.com/abc-defg-hij\nView event: https://calendar.google.com/calendar/event?action=VIEW&eid=MjAyNjExMTlUMTgwMDAwWiBkZXNpZ24tcmV2aWV3QGV4YW1wbGUuY29t",
+  "sender": "calendar-notification@google.example",
+  "html": "<html><body><p><b>Design review</b></p><p>Wednesday Nov 19, 10am - 11am (PST)</p><p><a href=\"https://meet.google.com/abc-defg-hij\">meet.google.com/abc-defg-hij</a></p><p><a href=\"https://calendar.google.com/calendar/event?action=VIEW&amp;eid=MjAyNjExMTlUMTgwMDAwWiBkZXNpZ24tcmV2aWV3QGV4YW1wbGUuY29t\">View event</a> | <a href=\"https://calendar.google.com/calendar/event?action=RESPOND&amp;rst=1\">Yes</a></p><p style=\"color:#ffffff;background-color:#1a73e8\">Invitation from Google Calendar</p></body></html>",
+  "expected": "clean"
+}

@@ -1,0 +1,6 @@
+{
+  "subject": "Holiday schedule",
+  "body": "Hi managers,\n\nPlease forward this email to your team so everyone sees the holiday schedule. The office is closed Nov 27-28.\n\nThanks, HR",
+  "sender": "hr@ourcompany.com",
+  "expected": "clean"
+}
